@@ -1,0 +1,43 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>TaskList</h1>
+        <h2>What Are Your Goals for Today?</h2>
+
+  <form id= taskForm>
+    Task: <input type="text" id= "task-title" name="task-title"><br><br>
+    Priority: 
+    
+    <select id="priority">
+            <option value="ASAP"> ASAP</option>
+            <option value="Some Point Today"> Some Point Today</option>
+            <option value="Would be nice if I got it done, but probably won't"> Would be nice if I got it done, but probably won't</option>
+</select><br></br>
+<input type="radio" name="status" id="To Do" value="To Do">
+<label for="To Do"> To Do</label>
+
+<input type="radio" name="status" id="Not To Do"  value="Not To Do">
+<label for="Not To Do"> Not To Do</label><br></br>
+
+
+
+
+
+<button id="submitButton" type="submit" >Lock in Task</button>
+
+  </form>
+
+  <div id="List">
+    <h1>Task(s) to do:</h1>
+    <hr ></hr>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="task.js"></script>
+    </body>
+</html>
+
+<button id = "quoteButton"> Press for Quote</button>
+<p id="quoteDisplay"></p>
