@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+     background-image: url("https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyajd4Y3loaW1rY2s1OW91YWp0OXlmNHQ5dXE2Nml1ZnkycThxaGdpdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1AgD49uYu2sN2R6AB9/giphy.gif");
+  background-repeat: no-repeat;
+  font-family: "Segoe UI", Arial, sans-serif;
+
+  margin: 40px;
+  color: #4de2e8;
+}
+.completed {
+  
+  text-decoration: line-through;
+  color: #2bff00;
+  background-color: rgba(31, 180, 93, 0.1);
+  transform: scale(0.98);
+  transition: all 0.3s ease;
+}
+
+li {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 6px 10px;
+  margin: 6px 0;
+}
+#quoteDisplay {
+  font-size: x-large;
+  margin-top: 15px;
+  font-style: italic;
+  color: #4de2e8;
+  text-shadow: 0 0 5px rgba(77, 226, 232, 0.5);
+  transition: opacity 0.5s ease;
+}
